@@ -72,7 +72,7 @@ stdenv.mkDerivation rec {
     # https://github.com/wxWidgets/wxWidgets/issues/17942
     ./0001-segv-patches.patch
     ./0002-cmake-fix.patch
-    ./0003-fix-ambiguous-call.patch
+    #./0003-fix-ambiguous-call.patch
     ./0004-fix-ambiguous-call.patch
   ];
 
