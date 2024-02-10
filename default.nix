@@ -73,7 +73,7 @@ stdenv.mkDerivation rec {
     ./0001-segv-patches.patch
     ./0002-cmake-fix.patch
     #./0003-fix-ambiguous-call.patch
-    ./0004-fix-ambiguous-call.patch
+    #./0004-fix-ambiguous-call.patch
   ];
 
   dontStrip = true;
