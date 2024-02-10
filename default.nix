@@ -59,13 +59,13 @@ let
 in
 stdenv.mkDerivation rec {
   pname = "orca-slicer";
-  version = "1.7.0";
+  version = "1.9.0";
 
   src = fetchFromGitHub {
     owner = "SoftFever";
     repo = "OrcaSlicer";
     rev = "v${version}";
-    hash = "sha256-qwlLHtTVIRW1g5WRQ5NhDh+O8Bypra/voIu39yU2tbw=";
+    hash = "";
   };
 
   patches = [
